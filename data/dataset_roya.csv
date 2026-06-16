@@ -1,0 +1,478 @@
+﻿Texto,intencion
+Buenos días,saludo
+Hola,saludo
+¿Cómo estás?,saludo
+Buenas noches,saludo
+"Hola, ¿cómo estás?",saludo
+Hola chatbot,saludo
+¿Hay alguien ahí?,saludo
+Saludos,saludo
+¿Qué tal?,saludo
+Hola amigo,saludo
+"Buenos días, necesito ayuda",saludo
+"Hola, tengo una consulta",saludo
+Hola sistema,saludo
+"Hola, ¿me puedes ayudar?",saludo
+¿Cómo te encuentras?,saludo
+Un saludo,saludo
+Feliz día,saludo
+Hola Coffe,saludo
+¿Qué significa roya?,consulta_roya
+¿Qué enfermedad es la roya?,consulta_roya
+Cuéntame sobre la roya del café,consulta_roya
+¿Por qué aparece la roya?,consulta_roya
+¿Qué causa la roya?,consulta_roya
+¿La roya es un hongo?,consulta_roya
+¿Cómo afecta la roya al café?,consulta_roya
+¿Qué daños produce la roya?,consulta_roya
+¿Qué es Hemileia vastatrix?,consulta_roya
+¿La roya mata las plantas?,consulta_roya
+¿Qué tan peligrosa es la roya?,consulta_roya
+¿La roya afecta la producción?,consulta_roya
+Información sobre la roya,consulta_roya
+Quiero aprender sobre la roya,consulta_roya
+¿Cuál es el origen de la roya?,consulta_roya
+¿Cómo se desarrolla la roya?,consulta_roya
+¿Qué ocurre cuando una planta tiene roya?,consulta_roya
+Definición de roya del café,consulta_roya
+¿Por qué le da roya al café?,consulta_roya
+¿De dónde sale la roya?,consulta_roya
+¿Qué produce la roya en las plantas?,consulta_roya
+¿Por qué aparece la roya en el cafetal?,consulta_roya
+¿Qué tan peligrosa es la roya?,consulta_roya
+¿La roya es un hongo?,consulta_roya
+¿Por qué mis matas se enferman de roya?,consulta_roya
+¿La roya afecta mucho la producción?,consulta_roya
+¿Qué daños causa la roya?,consulta_roya
+¿La roya puede acabar un cultivo?,consulta_roya
+¿Cómo se desarrolla la roya?,consulta_roya
+¿Qué pasa cuando aparece roya en un cafetal?,consulta_roya
+¿Qué tan común es la roya?,consulta_roya
+¿La roya solo afecta al café?,consulta_roya
+¿Qué ocurre si aparece roya en las plantas?,consulta_roya
+¿Por qué la roya se considera una amenaza?,consulta_roya
+¿Qué tan dañina es la roya para el café?,consulta_roya
+¿La roya afecta la cosecha?,consulta_roya
+¿La roya se riega fácilmente?,consulta_roya
+¿La roya puede extenderse por toda la finca?,consulta_roya
+¿Qué significa tener roya en el cultivo?,consulta_roya
+¿Cómo llegó la roya a los cafetales?,consulta_roya
+¿Por qué aparece tanta roya en algunas fincas?,consulta_roya
+¿Qué consecuencias tiene la roya?,consulta_roya
+¿La roya afecta los granos de café?,consulta_roya
+¿Qué tan grave puede ser la roya?,consulta_roya
+¿Por qué la roya preocupa a los caficultores?,consulta_roya
+¿Cómo afecta la roya el crecimiento de las plantas?,consulta_roya
+Cuénteme qué es la roya del café,consulta_roya
+Quiero saber más sobre la roya,consulta_roya
+Explíqueme qué es la roya,consulta_roya
+Necesito información sobre la roya,consulta_roya
+¿Qué debo saber sobre la roya?,consulta_roya
+¿Por qué se presenta la roya?,consulta_roya
+¿Qué origina la roya en el café?,consulta_roya
+¿Qué características tiene la roya?,consulta_roya
+¿Por qué aparece esa enfermedad en las hojas?,consulta_roya
+¿Qué es lo que provoca la roya?,consulta_roya
+¿Cómo afecta la roya la salud de los cafetos?,consulta_roya
+¿La roya es una enfermedad grave?,consulta_roya
+¿Qué diferencia hay entre la roya y otras enfermedades?,consulta_roya
+¿La roya afecta cultivos jóvenes y viejos?,consulta_roya
+¿Por qué la roya sigue apareciendo en los cafetales?,consulta_roya
+¿Qué tan rápido puede avanzar la roya?,consulta_roya
+¿La roya afecta todas las variedades de café?,consulta_roya
+¿Qué tan importante es conocer sobre la roya?,consulta_roya
+¿Por qué la roya es tan problemática?,consulta_roya
+"He escuchado hablar de la roya, ¿qué es?",consulta_roya
+¿Qué es la roya del café?,consulta_roya
+Explícame qué es la roya,consulta_roya
+¿Cómo puedo saber si mis matas tienen roya?,sintomas
+¿Cuáles son los síntomas de la roya?,sintomas
+¿Cómo se ve una planta con roya?,sintomas
+¿Qué señales deja la roya en las hojas?,sintomas
+¿Cómo identificar la roya en el café?,sintomas
+¿Qué aspecto tiene una hoja enferma?,sintomas
+¿Cómo reconocer la roya?,sintomas
+¿Qué cambios produce la roya en las plantas?,sintomas
+¿Cómo saber si el café está enfermo de roya?,sintomas
+¿Qué le pasa a una mata cuando tiene roya?,sintomas
+¿Qué manchas produce la roya?,sintomas
+¿Las hojas amarillas pueden ser roya?,sintomas
+¿Cómo luce una hoja afectada por roya?,sintomas
+¿Qué debo observar para detectar roya?,sintomas
+¿Cómo me doy cuenta si hay roya en el cultivo?,sintomas
+¿Qué características tiene una planta con roya?,sintomas
+¿Cómo se manifiesta la roya en los cafetos?,sintomas
+¿Qué signos aparecen cuando hay roya?,sintomas
+¿Cómo detectar la roya a tiempo?,sintomas
+¿Qué síntomas aparecen primero?,sintomas
+¿Las manchas anaranjadas son señal de roya?,sintomas
+¿Cómo saber si las hojas tienen roya?,sintomas
+¿Qué daños visibles causa la roya?,sintomas
+¿Cómo diferenciar una hoja sana de una enferma?,sintomas
+¿Qué aspecto tiene el daño causado por roya?,sintomas
+¿La roya hace que las hojas se caigan?,sintomas
+¿Cómo se ven los cafetos afectados por roya?,sintomas
+¿Qué debo revisar en las hojas del café?,sintomas
+¿Cómo identificar los primeros síntomas de roya?,sintomas
+¿Qué señales indican que la roya está presente?,sintomas
+¿Cuáles son los síntomas de la roya?,sintomas
+¿Cómo identificar la roya?,sintomas
+¿Qué señales deja la roya?,sintomas
+¿Cómo saber si mi cultivo tiene roya?,sintomas
+¿Qué aspecto tienen las hojas enfermas?,sintomas
+¿La roya produce manchas?,sintomas
+¿Cómo reconocer la roya en el cafeto?,sintomas
+¿Qué color tienen las lesiones?,sintomas
+¿Las hojas amarillas indican roya?,sintomas
+¿Cómo luce una hoja afectada?,sintomas
+¿Qué síntomas aparecen primero?,sintomas
+¿Qué cambios provoca la roya?,sintomas
+¿Las hojas se caen por la roya?,sintomas
+¿Cómo se manifiesta la enfermedad?,sintomas
+¿Qué daños visibles genera?,sintomas
+¿Cómo detectar roya temprana?,sintomas
+¿Cómo inspeccionar una planta?,sintomas
+¿Qué signos debo observar?,sintomas
+¿Las manchas naranjas son roya?,sintomas
+¿Cómo saber si la roya está avanzada?,sintomas
+¿Cómo eliminar la roya?,tratamiento
+¿Qué tratamiento recomiendas?,tratamiento
+¿Cómo combatir la roya?,tratamiento
+¿Qué fungicida puedo usar?,tratamiento
+¿Cómo curar una planta afectada?,tratamiento
+¿Qué hago si tengo roya?,tratamiento
+¿Cómo controlar la enfermedad?,tratamiento
+¿Cuál es el mejor tratamiento?,tratamiento
+¿Cómo reducir la roya?,tratamiento
+¿Cómo recuperar un cafeto enfermo?,tratamiento
+¿Qué acciones debo tomar?,tratamiento
+¿Existe tratamiento para la roya?,tratamiento
+¿Cómo detener el avance de la roya?,tratamiento
+¿Qué productos sirven contra la roya?,tratamiento
+¿Qué medidas correctivas puedo aplicar?,tratamiento
+¿Cómo tratar hojas infectadas?,tratamiento
+¿La poda ayuda a controlar la roya?,tratamiento
+¿Cómo disminuir la infestación?,tratamiento
+¿Qué hago con las hojas afectadas?,tratamiento
+Soluciones para la roya del café,tratamiento
+¿Cuál es el tratamiento más efectivo contra la roya?,tratamiento
+¿Cómo detener la roya en mi cultivo?,tratamiento
+¿Qué debo aplicar para controlar la roya?,tratamiento
+¿Cómo recuperar una planta afectada por roya?,tratamiento
+¿Qué producto ayuda a combatir la roya?,tratamiento
+¿Qué acciones debo tomar después de detectar roya?,tratamiento
+¿Cómo tratar un árbol de café enfermo?,tratamiento
+¿Qué acciones debo tomar después de detectar roya?,tratamiento
+¿Cómo evitar que la roya siga avanzando?,tratamiento
+¿Existe una cura para la roya?,tratamiento
+¿Qué método recomiendas para controlar la enfermedad?,tratamiento
+¿Cómo salvar mis plantas de café?,tratamiento
+¿Qué hago si las hojas tienen roya?,tratamiento
+¿Cómo reducir los daños causados por la roya?,tratamiento
+¿Qué alternativas existen para tratar la roya?,tratamiento
+¿Cómo controlar un brote de roya?,tratamiento
+¿Cuál es la mejor estrategia para combatir la roya?,tratamiento
+¿Qué prácticas ayudan a disminuir la roya?,tratamiento
+¿Cómo tratar una infestación moderada?,tratamiento
+¿Qué tratamiento aplicar cuando aparece roya?,tratamiento
+¿Cómo manejar una plantación infectada?,tratamiento
+¿Qué debo hacer si detecto manchas naranjas?,tratamiento
+¿Cómo actuar ante un caso de roya?,tratamiento
+¿Qué solución existe para la roya del café?,tratamiento
+¿Cómo disminuir la presencia del hongo?,tratamiento
+¿Qué tratamiento es recomendable para cafetos afectados?,tratamiento
+¿Cómo mejorar la salud de una planta con roya?,tratamiento
+¿Qué acciones correctivas debo implementar?,tratamiento
+¿Cómo combatir la enfermedad en etapas tempranas?,tratamiento
+¿Qué medidas tomar después del diagnóstico?,tratamiento
+¿Cómo evitar que la roya se propague?,tratamiento
+¿Qué hacer cuando la roya afecta varias plantas?,tratamiento
+¿Cómo controlar una infección severa?,tratamiento
+¿Qué opciones de manejo existen para la roya?,tratamiento
+¿Qué tratamiento recomiendan los expertos?,tratamiento
+¿Cómo tratar hojas gravemente afectadas?,tratamiento
+¿Qué hacer con las hojas contaminadas?,tratamiento
+¿Cómo eliminar focos de infección?,tratamiento
+¿Qué debo hacer para recuperar la producción?,tratamiento
+¿Cómo restaurar un cultivo afectado?,tratamiento
+¿Qué procedimiento seguir tras detectar roya?,tratamiento
+¿Cómo reducir el impacto de la roya?,tratamiento
+¿Qué prácticas agrícolas ayudan a controlar la enfermedad?,tratamiento
+¿Cómo manejar la roya de forma eficiente?,tratamiento
+¿Qué hago si el porcentaje de roya es alto?,tratamiento
+¿Qué acciones tomar con una infestación del 30%?,tratamiento
+¿Cómo actuar frente a una infestación del 50%?,tratamiento
+¿Cómo controlar la roya cuando está avanzada?,tratamiento
+¿Qué recomendaciones existen para disminuir la roya?,tratamiento
+¿Cómo evitar pérdidas por roya?,tratamiento
+¿Qué tratamiento aplicar en hojas jóvenes afectadas?,tratamiento
+¿Cómo reducir la cantidad de hojas enfermas?,tratamiento
+¿Qué hacer si el cultivo está muy afectado?,tratamiento
+¿Cómo intervenir una plantación infectada?,tratamiento
+¿Qué solución rápida existe contra la roya?,tratamiento
+¿Cómo controlar la roya sin afectar el cultivo?,tratamiento
+¿Qué manejo integrado recomiendas para la roya?,tratamiento
+¿Cómo eliminar el hongo responsable de la roya?,tratamiento
+¿Qué acciones ayudan a recuperar el cafetal?,tratamiento
+¿Cómo tratar un lote afectado por roya?,tratamiento
+¿Qué procedimiento seguir para controlar la enfermedad?,tratamiento
+¿Cómo disminuir el nivel de infestación?,tratamiento
+¿Qué medidas tomar para frenar la roya?,tratamiento
+¿Cómo combatir la roya en varias parcelas?,tratamiento
+¿Qué hacer cuando la enfermedad ya se expandió?,tratamiento
+¿Cómo reducir la propagación del hongo?,tratamiento
+"La roya está afectando mis cafetos, ¿qué puedo hacer?",tratamiento
+Necesito una solución para la roya en mi cultivo,tratamiento
+¿Cómo puedo mejorar la condición de mis plantas enfermas?,tratamiento
+¿Qué recomendaciones hay para controlar la roya rápidamente?,tratamiento
+"Mis plantas tienen muchas hojas dañadas, ¿qué hago?",tratamiento
+¿Cuál es el procedimiento para manejar un cultivo afectado?,tratamiento
+¿Qué prácticas ayudan a recuperar cafetos enfermos?,tratamiento
+¿Cómo puedo disminuir el daño causado por la roya?,tratamiento
+¿Qué debo hacer después de detectar la enfermedad?,tratamiento
+Tengo varias plantas afectadas por roya,tratamiento
+La enfermedad se está extendiendo por el cultivo,tratamiento
+Mis cafetos están perdiendo muchas hojas,tratamiento
+Hay manchas anaranjadas en casi todo el lote,tratamiento
+Necesito controlar un brote de roya,tratamiento
+El daño por roya está aumentando cada semana,tratamiento
+Quiero recuperar mi cultivo de café,tratamiento
+La roya está afectando la producción,tratamiento
+El cultivo se ve cada vez más enfermo,tratamiento
+Necesito recomendaciones para tratar la roya,tratamiento
+¿Cómo prevenir la roya?,prevencion
+¿Cómo evitar la roya?,prevencion
+¿Qué medidas preventivas existen?,prevencion
+¿Cómo proteger mis cafetos?,prevencion
+¿Qué cuidados reducen la roya?,prevencion
+¿Cómo evitar futuras infecciones?,prevencion
+¿Qué prácticas agrícolas recomiendas?,prevencion
+¿Cómo mantener sano el cultivo?,prevencion
+¿La fertilización ayuda a prevenirla?,prevencion
+¿Qué hacer para que no aparezca?,prevencion
+¿Cómo reducir el riesgo de roya?,prevencion
+¿Qué mantenimiento debo realizar?,prevencion
+¿Cómo prevenir brotes?,prevencion
+¿Qué tan importante es la poda?,prevencion
+¿Cómo evitar la propagación?,prevencion
+¿Qué recomendaciones preventivas existen?,prevencion
+¿Cómo fortalecer las plantas?,prevencion
+¿Qué buenas prácticas debo seguir?,prevencion
+¿Cómo proteger mi cosecha?,prevencion
+Estrategias de prevención de roya,prevencion
+Quiero evitar que la roya llegue a mi cultivo,prevencion
+Me preocupa que aparezca roya en mis plantas,prevencion
+Busco formas de proteger mis cafetos,prevencion
+Quiero mantener mi cafetal saludable,prevencion
+Estoy buscando cómo prevenir enfermedades en el café,prevencion
+No quiero que la roya afecte mi cosecha,prevencion
+Necesito recomendaciones para cuidar el cultivo,prevencion
+Quiero reducir el riesgo de enfermedades,prevencion
+Estoy interesado en proteger mis plantas,prevencion
+Busco buenas prácticas para el cafetal,prevencion
+¿Cómo puedo evitar la roya en mi cultivo?,prevencion
+¿Qué debo hacer para que no aparezca la roya?,prevencion
+¿Cómo proteger mis matas de café de la roya?,prevencion
+¿Qué cuidados ayudan a prevenir la roya?,prevencion
+¿Cómo mantener el cafetal libre de roya?,prevencion
+¿Qué recomendaciones hay para evitar la roya?,prevencion
+¿Cómo hago para que mis plantas no se enfermen?,prevencion
+¿Qué prácticas ayudan a prevenir la enfermedad?,prevencion
+¿Cómo reducir el riesgo de roya?,prevencion
+¿Qué puedo hacer para proteger el cultivo?,prevencion
+¿Cómo evitar que la roya se riegue por la finca?,prevencion
+¿Qué medidas preventivas debo tomar?,prevencion
+¿Cómo cuidar mejor mis cafetos para evitar la roya?,prevencion
+¿Qué debo revisar para prevenir la roya?,prevencion
+¿Cómo evitar futuros problemas con la roya?,prevencion
+¿Qué manejo recomiendan para prevenir la enfermedad?,prevencion
+¿Cómo mantener sanas las plantas de café?,prevencion
+¿Qué debo hacer antes de que aparezca la roya?,prevencion
+¿Cómo disminuir las posibilidades de tener roya?,prevencion
+¿Qué hábitos ayudan a prevenir esta enfermedad?,prevencion
+¿Cómo evitar que mis cafetos se contagien?,prevencion
+¿Qué puedo hacer para fortalecer el cultivo?,prevencion
+¿Cómo proteger la cosecha de la roya?,prevencion
+¿Qué acciones preventivas son recomendables?,prevencion
+¿Cómo mantener el cultivo en buenas condiciones?,prevencion
+¿Qué debo hacer durante el año para evitar la roya?,prevencion
+¿Cómo prevenir daños por roya en el cafetal?,prevencion
+¿Qué cuidados necesita el café para evitar enfermedades?,prevencion
+¿Cómo reducir la aparición de roya en las hojas?,prevencion
+¿Qué puedo hacer para tener un cafetal más sano?,prevencion
+Tengo 5% de roya,nivel_infestacion
+Tengo 10% de infestación,nivel_infestacion
+Mi cultivo presenta 15% de roya,nivel_infestacion
+Tengo 20% de roya en el lote,nivel_infestacion
+El sistema detectó 25% de roya,nivel_infestacion
+Mi plantación tiene 30% de infestación,nivel_infestacion
+¿Qué significa 35% de roya?,nivel_infestacion
+¿Es grave tener 40% de roya?,nivel_infestacion
+Tengo 45% de infestación,nivel_infestacion
+El análisis indica 50% de roya,nivel_infestacion
+Tengo 60% de infestación,nivel_infestacion
+¿Es crítico un 65% de roya?,nivel_infestacion
+Mi cultivo tiene 70% afectado,nivel_infestacion
+El modelo detectó 75% de roya,nivel_infestacion
+Tengo 80% de infestación,nivel_infestacion
+¿Qué significa 85% de roya?,nivel_infestacion
+Tengo 90% de roya,nivel_infestacion
+El cafetal tiene 95% afectado,nivel_infestacion
+Se detectó 100% de infestación,nivel_infestacion
+¿Qué tan grave es el nivel de roya detectado?,nivel_infestacion
+¿Cómo interpreto el resultado obtenido?,nivel_infestacion
+¿El nivel de roya es preocupante?,nivel_infestacion
+¿Debo actuar de inmediato según el diagnóstico?,nivel_infestacion
+¿Qué significa el resultado del análisis?,nivel_infestacion
+¿Cómo interpretar el nivel de afectación?,nivel_infestacion
+¿La infestación detectada es alta?,nivel_infestacion
+¿La roya encontrada representa un riesgo para el cultivo?,nivel_infestacion
+¿Qué tan afectado está mi cultivo?,nivel_infestacion
+¿El nivel detectado requiere tratamiento urgente?,nivel_infestacion
+¿Cómo saber si la infestación es severa?,nivel_infestacion
+¿La roya está avanzando demasiado?,nivel_infestacion
+¿El resultado obtenido es alarmante?,nivel_infestacion
+¿Debo preocuparme por el diagnóstico?,nivel_infestacion
+¿Qué indica el análisis realizado?,nivel_infestacion
+¿Qué significa el nivel reportado?,nivel_infestacion
+¿Cómo evaluar el estado del cultivo?,nivel_infestacion
+¿La afectación observada es considerable?,nivel_infestacion
+¿Qué tan comprometida está la plantación?,nivel_infestacion
+¿Cómo interpretar los datos de infestación?,nivel_infestacion
+El sistema detectó roya en el cultivo,nivel_infestacion
+El análisis encontró presencia de roya,nivel_infestacion
+La enfermedad fue identificada en varias hojas,nivel_infestacion
+El detector encontró signos de roya,nivel_infestacion
+Hay evidencia de roya en el cultivo,nivel_infestacion
+Hay evidencia de roya en el cultivo,nivel_infestacion
+El porcentaje obtenido fue de 14%,nivel_infestacion
+Detecté roya en el 30% de las plantas,nivel_infestacion
+El sistema detectó un 12% de roya,nivel_infestacion
+Mi cultivo presenta un 22% de infestación,nivel_infestacion
+Tengo aproximadamente 33% de roya,nivel_infestacion
+Mi cafetal tiene un 47% afectado,nivel_infestacion
+La enfermedad fue identificada en varias hojas,nivel_infestacion
+El detector encontró signos de roya,nivel_infestacion
+Hay evidencia de roya en el cultivo,nivel_infestacion
+Se observó afectación por roya,nivel_infestacion
+La roya está presente en la plantación,nivel_infestacion
+El cultivo presenta síntomas de roya,nivel_infestacion
+Se identificó roya durante el análisis,nivel_infestacion
+¿La enfermedad está muy avanzada?,nivel_infestacion
+¿Será que voy a perder la cosecha?,nivel_infestacion
+¿Está muy grave la roya que tengo?,nivel_infestacion
+¿Será que todavía se puede salvar el cultivo?,nivel_infestacion
+¿La roya está dañando mucho las plantas?,nivel_infestacion
+¿Será que la roya ya se regó por toda la finca?,nivel_infestacion
+¿Mis plantas están muy dañadas?,nivel_infestacion
+¿Será que el daño es muy grande?,nivel_infestacion
+¿La roya me puede acabar la producción?,nivel_infestacion
+¿El cultivo está en peligro?,nivel_infestacion
+¿Se está perdiendo mucho café por la enfermedad?,nivel_infestacion
+¿Será que voy tarde para controlar esto?,nivel_infestacion
+¿La roya está avanzando rápido?,nivel_infestacion
+¿Mis matas tienen mucha enfermedad?,nivel_infestacion
+¿Será que el cultivo está muy enfermo?,nivel_infestacion
+La roya se me regó por el lote,nivel_infestacion
+Las matas están muy enfermas,nivel_infestacion
+La roya está muy brava,nivel_infestacion
+¿La cosa está muy complicada con la roya?,nivel_infestacion
+¿El cafetal está muy comprometido?,nivel_infestacion
+¿Mis plantas están muy deterioradas?,nivel_infestacion
+¿Las uñas de mis manos son amarillas?,no_cafe
+¿La planta de maíz está infectada?,no_cafe
+¿Los carros son amarillos?,no_cafe
+¿Dónde se encuentra el perro?,no_cafe
+¿La casa está ubicada en la finca?,no_cafe
+¿Cuál es la capital de Francia?,no_cafe
+¿Quién ganó el mundial?,no_cafe
+¿Cómo programar en Java?,no_cafe
+¿Qué es Python?,no_cafe
+Cuéntame un chiste,no_cafe
+¿Qué hora es?,no_cafe
+¿Cómo cocinar pasta?,no_cafe
+¿Cuál es la mejor película del año?,no_cafe
+¿Quién es el presidente de Colombia?,no_cafe
+¿Cómo aprender inglés?,no_cafe
+¿Qué significa inteligencia artificial?,no_cafe
+¿Cómo funciona un carro eléctrico?,no_cafe
+¿Cuánto mide la Torre Eiffel?,no_cafe
+¿Qué es una base de datos?,no_cafe
+¿Cómo crear una página web?,no_cafe
+¿Qué equipos juegan hoy?,no_cafe
+¿Cuál es el clima en Bogotá?,no_cafe
+¿Cómo invertir en bolsa?,no_cafe
+¿Qué es Bitcoin?,no_cafe
+¿Quién descubrió América?,no_cafe
+¿Cómo aprender matemáticas?,no_cafe
+¿Cómo crear una aplicación móvil?,no_cafe
+¿Cómo está el clima hoy?,no_cafe
+¿Quién ganó el partido de ayer?,no_cafe
+¿Cuál es la capital de Colombia?,no_cafe
+¿Qué hora es?,no_cafe
+¿Cómo puedo aprender inglés?,no_cafe
+¿Qué es la inteligencia artificial?,no_cafe
+¿Cómo programar en Python?,no_cafe
+¿Quién es el presidente de Colombia?,no_cafe
+¿Qué significa API?,no_cafe
+¿Cómo instalar Windows?,no_cafe
+¿Cuál es el mejor celular?,no_cafe
+¿Cómo crear una página web?,no_cafe
+¿Qué es una base de datos?,no_cafe
+¿Cómo funciona Internet?,no_cafe
+¿Qué es Docker?,no_cafe
+¿Cómo usar React?,no_cafe
+¿Qué es FastAPI?,no_cafe
+¿Cómo invertir dinero?,no_cafe
+¿Qué son las criptomonedas?,no_cafe
+¿Cómo cocinar arroz?,no_cafe
+¿Cuál es la receta para hacer pan?,no_cafe
+¿Cómo bajar de peso?,no_cafe
+¿Qué ejercicios puedo hacer en casa?,no_cafe
+¿Cómo entrenar un perro?,no_cafe
+¿Cuál es la mejor película del año?,no_cafe
+¿Quién escribió Cien años de soledad?,no_cafe
+¿Cuántos países hay en el mundo?,no_cafe
+¿Cómo funciona una impresora?,no_cafe
+¿Qué significa VPN?,no_cafe
+¿Cómo aprender matemáticas?,no_cafe
+¿Qué es una computadora cuántica?,no_cafe
+¿Cómo crear una aplicación móvil?,no_cafe
+¿Cuál es el río más largo del mundo?,no_cafe
+¿Quién descubrió América?,no_cafe
+¿Qué es la nube informática?,no_cafe
+¿Cómo editar videos?,no_cafe
+¿Cuál es el mejor carro para comprar?,no_cafe
+¿Cómo funciona una motocicleta?,no_cafe
+¿Qué es la energía solar?,no_cafe
+¿Cómo se fabrica un teléfono celular?,no_cafe
+Cuéntame un chiste,no_cafe
+Dime algo divertido,no_cafe
+¿Puedes contarme una historia?,no_cafe
+¿Qué música está de moda?,no_cafe
+¿Cómo puedo ganar dinero por internet?,no_cafe
+¿Qué pasó en las noticias hoy?,no_cafe
+¿Cuál es el mejor equipo de fútbol?,no_cafe
+¿Cómo viajar a España?,no_cafe
+¿Qué lugares turísticos hay en Colombia?,no_cafe
+¿Cómo tramito mi pasaporte?,no_cafe
+Gracias por la ayuda,despedida
+Muchas gracias,despedida
+Gracias,despedida
+Muy amable,despedida
+Hasta luego,despedida
+Adiós,despedida
+Nos vemos,despedida
+Hasta pronto,despedida
+Que tenga buen día,despedida
+Que esté bien,despedida
+"Me quedó claro, gracias",despedida
+"Eso era todo, gracias",despedida
+Ya no tengo más preguntas,despedida
+"Perfecto, muchas gracias",despedida
+"Excelente, gracias por la información",despedida
+"Listo, gracias por la ayuda",despedida
+Gracias por orientarme,despedida
+"Con eso es suficiente, gracias",despedida
+"Muy útil la información, gracias",despedida
+Hasta una próxima consulta,despedida
