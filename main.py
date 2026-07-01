@@ -268,5 +268,3 @@ def text_to_speech(request: TTSRequest):
         print(f"[TTS] Error: {e}", file=sys.stderr)
         raise HTTPException(status_code=500, detail=f"Error generando audio: {str(e)}")
     
-    
-    
