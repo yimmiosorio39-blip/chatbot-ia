@@ -69,7 +69,7 @@ def predict_intent(text: str):
 
     fallback = _keyword_fallback(text_lower)
 
-    # Saludo o despedida
+    #Saludo o despedida
     if fallback:
 
         return {

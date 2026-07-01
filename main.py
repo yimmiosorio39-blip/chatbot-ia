@@ -41,10 +41,6 @@ SYSTEM_PROMPT = (
 # MODELOS
 # ==========================
 
-# ==========================
-# MODELOS
-# ==========================
-
 class MessageRequest(BaseModel):
     text: str
 
@@ -53,9 +49,6 @@ class MessageResponse(BaseModel):
     intent: str
     confidence: float
     response: str
-
-class TTSRequest(BaseModel):
-    text: str
 
 # ==========================
 # HEALTH CHECK
@@ -241,32 +234,36 @@ async def predict_audio(file: UploadFile = File(...)):
             os.unlink(tmp_path)
 
 
+# ==========================
+# TTS — convierte texto a voz
+# para respuestas de texto
+# ==========================
+
+class TTSRequest(BaseModel):
+    text: str
+    intent: str | None = None
 
 @app.post("/chatbot/tts", tags=["Chatbot"])
 def text_to_speech(request: TTSRequest):
-    """
-    Convierte la respuesta del bot a audio MP3.
-    Usado cuando el usuario escribe (no graba) y quiere escuchar la respuesta.
-    """
     try:
-        response_text = request.text
+        if not request.text.strip():
+            raise HTTPException(status_code=400, detail="El texto no puede estar vacío")
 
         tts_response = client.audio.speech.create(
             model="tts-1",
             voice="nova",
-            input=response_text,
+            input=request.text,
         )
         audio_bytes = tts_response.content
 
         return StreamingResponse(
             io.BytesIO(audio_bytes),
             media_type="audio/mpeg",
-            headers={
-                "X-Response-Text": _sanitize_header(response_text),
-                "Access-Control-Expose-Headers": "X-Response-Text",
-            }
         )
+
+    except HTTPException:
+        raise
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error generando voz: {str(e)}")
-
-
+        import sys
+        print(f"[TTS] Error: {e}", file=sys.stderr)
+        raise HTTPException(status_code=500, detail=f"Error generando audio: {str(e)}")
