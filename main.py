@@ -1,5 +1,4 @@
 import os
-import io
 import tempfile
 import re
 from fastapi import FastAPI, HTTPException, UploadFile, File
@@ -7,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from dotenv import load_dotenv
-from openai import OpenAI
+from openai import OpenAI, AsyncOpenAI
 from predict import predict_intent
 
 load_dotenv()
@@ -27,8 +26,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# OpenAI
+# OpenAI: cliente síncrono para transcripción/GPT, cliente async para TTS en streaming
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+async_client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 SYSTEM_PROMPT = (
     "Eres un asistente experto en el cultivo de café y la enfermedad de la roya del café. "
@@ -49,6 +49,10 @@ class MessageResponse(BaseModel):
     intent: str
     confidence: float
     response: str
+
+class TTSRequest(BaseModel):
+    text: str
+    voice: str = "nova"
 
 # ==========================
 # HEALTH CHECK
@@ -141,23 +145,63 @@ def predict(request: MessageRequest):
 
 
 # ==========================
+# TTS EN STREAMING (helper)
+# ==========================
+# Usa el cliente async + with_streaming_response para que los bytes de
+# audio empiecen a salir del servidor tan pronto OpenAI genera los primeros
+# chunks, en vez de esperar a tener el MP3 completo en memoria.
+
+async def _stream_tts(text: str, voice: str = "nova"):
+    async with async_client.audio.speech.with_streaming_response.create(
+        model="tts-1",
+        voice=voice,
+        input=text,
+        response_format="mp3",
+    ) as response:
+        async for chunk in response.iter_bytes(chunk_size=4096):
+            yield chunk
+
+
+# ==========================
+# TTS — convierte texto a voz
+# para respuestas de texto
+# (usa el mismo texto que ya
+# mostraste en /chatbot/predict,
+# NO vuelve a llamar a GPT)
+# ==========================
+
+@app.post("/chatbot/tts", tags=["Chatbot"])
+async def tts(request: TTSRequest):
+    if not request.text.strip():
+        raise HTTPException(status_code=400, detail="El texto no puede estar vacío")
+
+    return StreamingResponse(
+        _stream_tts(request.text, voice=request.voice),
+        media_type="audio/mpeg",
+        headers={
+            "Cache-Control": "no-cache",
+        }
+    )
+
+
+# ==========================
 # AUDIO — recibe webm/wav,
 # transcribe con Whisper API,
 # predice intención y
 # devuelve respuesta en voz
-# (OpenAI TTS)
+# (OpenAI TTS, en streaming)
 # ==========================
 
 @app.post("/chatbot/audio", tags=["Chatbot"])
 async def predict_audio(file: UploadFile = File(...)):
     """
     Flujo:
-      1. Recibe audio grabado desde el navegador (webm)
+      1. Recibe audio grabado desde el navegador/app (webm/wav/etc)
       2. Transcribe con OpenAI Whisper API
       3. Predice intención con el modelo local
       4. Genera respuesta con GPT-4o-mini
-      5. Convierte respuesta a voz con OpenAI TTS
-      6. Devuelve MP3 + metadata en headers
+      5. Transmite la respuesta en voz (OpenAI TTS) en streaming,
+         con la metadata (texto, intención, confianza) en headers
     """
     tmp_path = None
     try:
@@ -201,17 +245,9 @@ async def predict_audio(file: UploadFile = File(...)):
             print(f"[Audio] OpenAI GPT falló, usando respuesta local: {e}", file=sys.stderr)
             ai_response = LOCAL_RESPONSES.get(intent, LOCAL_RESPONSES["no_cafe"])
 
-        # 5. Convertir respuesta a voz con OpenAI TTS
-        tts_response = client.audio.speech.create(
-            model="tts-1",
-            voice="nova",
-            input=ai_response,
-        )
-        audio_bytes = tts_response.content
-
-        # 6. Devolver MP3 con metadata en headers
+        # 5. Transmitir la voz en streaming (no esperar el MP3 completo)
         return StreamingResponse(
-            io.BytesIO(audio_bytes),
+            _stream_tts(ai_response),
             media_type="audio/mpeg",
             headers={
                 "X-Transcription":  _sanitize_header(transcript_text),
@@ -220,6 +256,7 @@ async def predict_audio(file: UploadFile = File(...)):
                 "X-Response-Text":  _sanitize_header(ai_response),
                 "Access-Control-Expose-Headers":
                     "X-Transcription, X-Intent, X-Confidence, X-Response-Text",
+                "Cache-Control": "no-cache",
             }
         )
 
@@ -232,39 +269,3 @@ async def predict_audio(file: UploadFile = File(...)):
     finally:
         if tmp_path and os.path.exists(tmp_path):
             os.unlink(tmp_path)
-
-
-# ==========================
-# TTS — convierte texto a voz
-# para respuestas de texto
-# ==========================
-
-class TTSRequest(BaseModel):
-    text: str
-    intent: str | None = None
-
-@app.post("/chatbot/tts", tags=["Chatbot"])
-def text_to_speech(request: TTSRequest):
-    try:
-        if not request.text.strip():
-            raise HTTPException(status_code=400, detail="El texto no puede estar vacío")
-
-        tts_response = client.audio.speech.create(
-            model="tts-1",
-            voice="nova",
-            input=request.text,
-        )
-        audio_bytes = tts_response.content
-
-        return StreamingResponse(
-            io.BytesIO(audio_bytes),
-            media_type="audio/mpeg",
-        )
-
-    except HTTPException:
-        raise
-    except Exception as e:
-        import sys
-        print(f"[TTS] Error: {e}", file=sys.stderr)
-        raise HTTPException(status_code=500, detail=f"Error generando audio: {str(e)}")
-    
